@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Courier Prime", "Courier New", monospace;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+a {
+  color: #E8D44E;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.terminal {
+  min-height: 100vh;
+  background: #000;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.terminal-content {
+  max-width: 600px;
+  width: 100%;
+  color: #fff;
+  font-family: "Courier Prime", "Courier New", monospace;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.prompt {
+  color: #E8D44E;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pi-clicker {
+  cursor: pointer;
+  user-select: none;
+  letter-spacing: 0.1em;
+  font-family: "Courier Prime", "Courier New", monospace;
+  padding: 0.2rem 0.4rem;
+  border-radius: 2px;
+  transition: background-color 0.1s;
+}
+
+.pi-clicker:hover {
+  background-color: rgba(232, 212, 78, 0.1);
+}
+
+.subtitle {
+  color: #666;
+  margin-top: 0.5rem;
+  font-size: 13px;
+}
+
+.section-divider {
+  border-bottom: 1px solid #333;
+  margin: 2rem 0;
+}
+
+.content {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.content p {
+  margin-bottom: 0.5rem;
+}
+
+.skill-category {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-name {
+  color: #E8D44E;
+  font-weight: bold;
+}
+
+.skills-list {
+  color: #888;
+  font-size: 13px;
+  margin-top: 0.3rem;
+}
+
+.skills-legend {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-left: 1px solid #333;
+  color: #666;
+  font-size: 12px;
+  display: flex;
+  gap: 1rem;
+}
+
+.legend-item {
+  color: #666;
+}
+
+.skills-disclaimer {
+  color: #666;
+  font-size: 12px;
+  margin: 0.5rem 0 1rem 1rem;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 550px;
+}
+
+.background-disclaimer {
+  color: #666;
+  font-size: 12px;
+  margin: 0.5rem 0 1rem 1rem;
+  font-style: italic;
+  line-height: 1.5;
+  max-width: 550px;
+}
+
+.beyond-code-text {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.project-item {
+  margin-bottom: 1.5rem;
+}
+
+.project-title {
+  color: #E8D44E;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.project-desc {
+  color: #ccc;
+  margin-bottom: 0.3rem;
+}
+
+.project-tech {
+  color: #666;
+  font-size: 12px;
+}
+
+.hobby-item {
+  margin-bottom: 1.5rem;
+}
+
+.hobby-title {
+  color: #E8D44E;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.hobby-desc {
+  color: #ccc;
+  margin-bottom: 0.3rem;
+}
+
+.hobby-link {
+  color: #888;
+  font-size: 12px;
+  word-break: break-all;
+}
+
+.hobby-link a {
+  color: #E8D44E;
+  text-decoration: none;
+}
+
+.hobby-link a:hover {
+  text-decoration: underline;
+}
+
+.background-item {
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 1px solid #333;
+}
+
+.background-title {
+  color: #E8D44E;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.background-desc {
+  color: #ccc;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.interest-item {
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-left: 1px solid #333;
+}
+
+.interest-title {
+  color: #E8D44E;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.interest-desc {
+  color: #ccc;
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.link-item {
+  margin: 0.5rem 0;
+}
+
+.link-item a {
+  color: #E8D44E;
+  text-decoration: none;
+}
+
+.link-item a:hover {
+  text-decoration: underline;
+}
+
+.quote {
+  text-align: center;
+  color: #555;
+  font-size: 11px;
+  font-style: italic;
+  margin: 1rem 0;
+  line-height: 1.4;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .terminal {
+    padding: 1rem;
+  }
+
+  .terminal-content {
+    font-size: 12px;
+  }
+}
