@@ -23,9 +23,9 @@ export const profile: Profile = {
   title: "",
   bio: "Hi! I'm Simon, driven by challenges and hard problems I enjoy building systems that solve real world problems and make the world better in some way. With curiousity and a passion for learning, I always seek to expand my knowledge and skills. Teamwork and positive collaboration is important to me, and I thrive in environments where ideas are shared and innovation is encouraged.",
   gitHubUrl: "https://github.com/sleijon1",
-  linkedInUrl: "https://localhost:3000",
-  websiteUrl: "https://localhost:3000",
-  substackUrl: "https://localhost:3000",
+  linkedInUrl: "https://www.linkedin.com/in/simon-leijon-402897133",
+  websiteUrl: "https://simonleijon.dev",
+  substackUrl: "https://substack.com/@simonleijon",
 };
 
 export const interests: Interest[] = [
