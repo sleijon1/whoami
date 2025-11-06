@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "nomis",
-  description: "Software Engineer Portfolio",
+  description: "whoami - nomis",
   icons: {
     icon: "/favicon.svg",
   },
