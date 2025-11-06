@@ -3,26 +3,6 @@
 import { useState } from 'react';
 import { profile, interests, background, beyondCode, backgroundDisclaimer, senecaQuote } from '@/app/lib/data';
 
-interface Profile {
-  name: string;
-  title: string;
-  bio: string;
-  gitHubUrl: string;
-  linkedInUrl: string;
-  websiteUrl: string;
-}
-
-interface Interest {
-  name: string;
-  description: string;
-}
-
-interface BackgroundItem {
-  title: string;
-  description: string;
-}
-
-
 const PI_DIGITS = '31415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679';
 
 export default function Home() {

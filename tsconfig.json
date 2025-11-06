@@ -18,7 +18,7 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "forceConsistentCasingInFileNames": true,
     "paths": {
       "@/*": [
